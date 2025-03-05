@@ -7,6 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.Clear();
         ImportarDadosExcel();
         //Ex1();
         //Ex2();
@@ -18,8 +19,8 @@ class Program
         //Ex8();
         //Ex9();
         //Ex10();
-        Ex11();
-        //Ex12();
+        //Ex11();
+        Ex12();
         //Ex13();
         //Ex14();
         //Ex15();
@@ -175,6 +176,7 @@ class Program
         var result = funcionarios.Count(f => f.DataAdmissao >= dataLimite);
 
         Console.WriteLine($"Total: {result}");
+        //Total: 48
     }
 
     //TODO 9. Quem são os 3 funcionários mais antigos na empresa?
@@ -187,6 +189,10 @@ class Program
         {
             Console.WriteLine($"{f.Nome} - {f.DataAdmissao.ToString("dd/MM/yyyy")}");
         }
+
+        //Maitê da Cunha - 07/03/2015
+        // Carlos Eduardo Ribeiro - 20/03/2015
+        // Davi da Mata - 22/03/2015
     }
 
     //TODO 10. Qual é o tempo médio de empresa dos funcionários (em anos)?
@@ -197,11 +203,47 @@ class Program
         .Average(f => f.AnosEmpresa);
 
         Console.WriteLine($"A média de anos na empresa é: {result:F2}");
-
+        //A média de anos na empresa é: 5,21
     }
 
     //TODO 11. Quantos funcionários existem em cada estado?
-    static void Ex11() { 
-            
+    static void Ex11()
+    {
+        var result = funcionarios
+        .GroupBy(f => f.Estado)
+        .OrderByDescending(f => f.Count());
+
+        foreach (var res in result)
+        {
+            Console.WriteLine($"{res.Key} tem {res.Count()} funcionários");
+        }
+        //SP tem 67 funcionários
+        // RJ tem 63 funcionários
+        // SC tem 55 funcionários
+        // RS tem 55 funcionários
+        // PR tem 50 funcionários
+        // BA tem 47 funcionários
+        // DF tem 45 funcionários
+        // CE tem 43 funcionários
+        // PE tem 41 funcionários
+        // MG tem 34 funcionários
+    }
+
+    //TODO 12. Liste os 3 cargos mais comuns na empresa.
+    static void Ex12()
+    {
+        var result = funcionarios
+        .GroupBy(f => f.Cargo)
+        .OrderByDescending(f => f.Count())
+        .Take(3);
+
+        foreach (var res in result)
+        {
+            Console.WriteLine($"{res.Key} - {res.Count()}");
+        }
+        //Resultado
+        //Técnico - 67
+        // Analista - 60
+        // Supervisor - 60
     }
 }

@@ -23,6 +23,7 @@ C:\csharp\multiplicacao_linq\obj\Debug\net9.0\multiplicacao_linq.GeneratedMSBuil
 C:\csharp\multiplicacao_linq\obj\Debug\net9.0\multiplicacao_linq.AssemblyInfoInputs.cache
 C:\csharp\multiplicacao_linq\obj\Debug\net9.0\multiplicacao_linq.AssemblyInfo.cs
 C:\csharp\multiplicacao_linq\obj\Debug\net9.0\multiplicacao_linq.csproj.CoreCompileInputs.cache
+C:\csharp\multiplicacao_linq\obj\Debug\net9.0\multiplicacao_linq.sourcelink.json
 C:\csharp\multiplicacao_linq\obj\Debug\net9.0\multipli.36482047.Up2Date
 C:\csharp\multiplicacao_linq\obj\Debug\net9.0\multiplicacao_linq.dll
 C:\csharp\multiplicacao_linq\obj\Debug\net9.0\refint\multiplicacao_linq.dll
