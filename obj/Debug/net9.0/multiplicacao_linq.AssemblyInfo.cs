@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("multiplicacao_linq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c9414f219d419fa7e4f2a60b1fd5e75dd787b63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0a2b6dc2e40b4dc0dee4453e25cfd55b637d275")]
 [assembly: System.Reflection.AssemblyProductAttribute("multiplicacao_linq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("multiplicacao_linq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
