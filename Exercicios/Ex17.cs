@@ -13,11 +13,13 @@ namespace Exercicios
             var result = Program.funcionarios.GroupBy(f => f.Cargo)
             .Select(f => new { f.Key, variacao = f.MaxBy(f => f.Salario).Salario - f.MinBy(f => f.Salario).Salario })
             .OrderByDescending(f => f.variacao)
-            .Take(1).FirstOrDefault();
+            .Take(1)
+            .FirstOrDefault();
 
             Console.WriteLine($"A maior variação é do cargo {result.Key} com {result.variacao:c} de diferença salarial");
 
             // A maior variação é do cargo Analista com R$ 16.950,55 de diferença salarial
         }
+        F
     }
 }
