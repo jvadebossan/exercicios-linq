@@ -34,6 +34,7 @@ namespace Exercicios
             .Count(f => f.DataAdmissao >= dataLimite);
 
             Console.WriteLine($"Total: {result}");
+            
             //Total: 48
         }
     }

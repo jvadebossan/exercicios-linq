@@ -17,5 +17,7 @@ namespace Exercicios
             var quant = nomes.Distinct().Count();
             Console.WriteLine($"{quant} funcionarios com nomes distintos.");
         }
+
+        //494 funcionarios com nomes distintos.
     }
 }

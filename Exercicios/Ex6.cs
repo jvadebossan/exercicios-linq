@@ -21,5 +21,9 @@ namespace Exercicios
                 Console.WriteLine($"{f.Key} - {f.Average(a => a.Salario):c}");
             }
         }
+
+        // Produção - R$ 12.327,73
+        // Financeiro - R$ 12.031,92
+        // Marketing - R$ 11.647,14
     }
 }

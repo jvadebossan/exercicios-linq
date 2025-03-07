@@ -18,8 +18,15 @@ namespace Exercicios
 
             foreach (var item in resultado)
             {
-                Console.WriteLine($"{item.Key} - {item.count}");
+                Console.WriteLine($"{item.Key.Month}/{item.Key.Year} - {item.count}");
             }
         }
+
+        // 5 primeiros (para correção)
+        // 3/2015 - 3
+        // 4/2015 - 10
+        // 5/2015 - 4
+        // 6/2015 - 4
+        // 7/2015 - 6
     }
 }

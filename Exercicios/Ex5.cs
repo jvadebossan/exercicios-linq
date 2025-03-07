@@ -17,5 +17,11 @@ namespace Exercicios
                 Console.WriteLine($"{f.Nome} - {f.Salario:c}");
             }
         }
+
+        // João Miguel Melo - R$ 19.953,52
+        // Mariane Oliveira - R$ 19.953,07
+        // Nicole Silveira - R$ 19.920,30
+        // Pedro Lucas Pereira - R$ 19.894,69
+        // Enzo Gabriel Ferreira - R$ 19.816,03
     }
 }

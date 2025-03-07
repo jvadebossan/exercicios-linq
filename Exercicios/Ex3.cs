@@ -19,5 +19,14 @@ namespace Exercicios
                 Console.WriteLine($"{groups.Key} - {groups.Count()} funcionários");
             }
         }
+
+        // Comercial - 73 funcionários
+        // Marketing - 66 funcionários
+        // Produção - 54 funcionários
+        // Financeiro - 65 funcionários
+        // Logística - 63 funcionários
+        // TI - 57 funcionários
+        // Recursos Humanos - 56 funcionários
+        // Jurídico - 66 funcionários
     }
 }

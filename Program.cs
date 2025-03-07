@@ -9,7 +9,7 @@ class Program
     private static string filePath = Path.Combine(Environment.CurrentDirectory, "Funcionarios.xlsx");
 
 
-    public static List<Funcionario> funcionarios = [];
+    public static List<Funcionario> funcionarios = []; 
 
     private static void ImportarDadosExcel()
     {

@@ -14,5 +14,7 @@ namespace Exercicios
 
             Console.WriteLine($"A média salarial é: R${salarios:F2}");
         }
+
+        //A média salarial é: R$11250,35
     }
 }

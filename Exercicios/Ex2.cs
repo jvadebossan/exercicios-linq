@@ -13,5 +13,12 @@ namespace Exercicios
             var nomes = Program.funcionarios.OrderBy(f => f.Nome);
             foreach (var n in nomes) Console.WriteLine(n.Nome);
         }
+
+        // 5 primeiros (para correção)
+        // Agatha Porto
+        // Agatha Ramos
+        // Alana Farias
+        // Alana Oliveira
+        // Alana Peixoto
     }
 }
