@@ -20,6 +20,5 @@ namespace Exercicios
 
             // A maior variação é do cargo Analista com R$ 16.950,55 de diferença salarial
         }
-        F
     }
 }
